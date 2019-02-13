@@ -1,0 +1,137 @@
+.mxanchor.anchorDiv.right::-webkit-scrollbar {
+    	display: none;
+}
+.mxanchor.anchorDiv.left::-webkit-scrollbar {
+	display: none;
+}
+.right{
+	position: fixed  ;
+	overflow-x: hidden;	
+	overflow-y: auto ;
+	background-color:rgba(255,255,255,1);
+	color: #888 ;
+	right: 50px ;
+}
+.mxanchor{
+    -webkit-user-select:none;
+     -moz-user-select:none;
+     -ms-user-select:none;
+     user-select:none;
+}
+.anchor_dataDiv{
+	float: right ;
+	width: 100% ;
+	position: relative ;
+}
+.anchor_canvasDiv{
+	width: 40px ;
+	float: left ;	
+}
+
+.anchor_pDiv{
+	float:right ;
+	overflow-y: auto ;
+	position: relative ;
+}
+
+.anchor_childDiv{
+	float:right ;
+	height: 25px ;
+	width: 210px ;
+	cursor: pointer ;
+	line-height: 25px ;
+	font-size: 14px;
+	
+	/*transition: background-color 1s ;*/
+	text-indent:10px ;
+}
+.hover{
+	background-color:rgba(0,0,0,0.1);
+}
+.numspan_s{
+	line-height: 25px ;
+	padding-left: 20px;
+}
+.numspan_f{
+	line-height: 25px ;
+}
+.iconspan_f{
+	padding-left: 5px ;
+	line-height: 25px ;
+	line-height: 25px ;	
+}
+.valspan_f{
+	text-decoration: none ;
+	font-size: 14px ;
+	line-height: 25px ;
+}
+
+.iconspan_s{
+	padding-left: 5px ;
+	line-height: 25px ;
+}
+.valSpan_s{
+	line-height: 25px ;
+}
+.anchor_con{
+	height: 100% ;
+	overflow-x: hidden;	
+	overflow-y: auto ;
+}
+
+.anchor_con::-webkit-scrollbar{
+	display: none ;
+}
+.anchor_pDiv::-webkit-scrollbar{
+	display: none ;
+}
+
+.anchor_btn{
+	height:50px;
+}
+.focus{
+	background-color:rgba(0,0,0,0.1);
+}
+.focusAnchor{
+	background-color:rgba(0,0,0,0.1);
+}
+.canvas_an{
+	width: 40px ;
+	height: 25px;
+	float:left ;
+}
+.canvas{
+	width: 100% ;
+	height: 100% ;
+}
+.signDiv{
+	width: 100% ;
+	height: 25px  ;
+}
+.anchor_focus_canvas{
+	position: absolute ;
+	top: 0px ;
+	left: 0px ;
+	z-index: 1 ;
+}
+
+.cbtn{
+	margin-left: 20px ;
+	margin-top: 6px ;
+	cursor: pointer;
+}
+.hidden{
+	display:none ;
+}
+
+.begin-canvas{
+	position:absolute ;
+	top: 0px ;
+	right: 10px ;
+}
+.end-canvas{
+	position:absolute ;
+	top:0px ;
+	right: 10px ;
+
+}
